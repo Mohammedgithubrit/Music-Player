@@ -211,4 +211,4 @@ let volume_slider = document.querySelector('.volume_slider');
 
 function setVolume() {
     audio.volume = volume_slider.value / 100;
-}
+};
